@@ -1,0 +1,1 @@
+Static Recreation of To-Do App using react (No JavaScript functionality)
