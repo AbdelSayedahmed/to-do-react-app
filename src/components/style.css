@@ -31,6 +31,11 @@
     margin-left: 5px;
 }
 
+.to-dos__submit-button:hover {
+    background: rgb(42, 237, 48);
+    cursor: pointer;
+}
+
 .to-dos__list {
     list-style: none;
     padding-left: 0px;
@@ -49,6 +54,11 @@
     border-radius: 5px;
     border: none;
     padding: 4px 8px;
+}
+
+.to-dos__delete-button:hover {
+    background-color: red;
+    cursor: pointer;
 }
 
 @media (max-width: 741px) {
