@@ -17,9 +17,7 @@ function TodoList() {
     <div className="to-dos">
       <h2 className="to-dos__heading">To-Do List</h2>
       <ul className="to-dos__list">
-        {listItems.map((listItem, index) => (
-          <TodoListItem key={index} item={listItem} />
-        ))}
+        {listItems.map((listItem, index) => (<TodoListItem key={index} item={listItem} />))}
       </ul>
     </div>
   );
